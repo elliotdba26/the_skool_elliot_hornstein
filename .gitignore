@@ -1,15 +1,30 @@
+# Environment variables
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*
+!.env.example
+
+# Vim temporary / swap / backup files
 .*.sw?
 *.swp
 *.swo
 *.un~
+*~
 Session.vim
 .netrwhist
 tags
+
+# OS-generated files
 .DS_Store
 Thumbs.db
+
+# Logs
 *.log
+
+# Local database files (ta bort om du vill versionshantera dem)
+*.db
+*.sqlite
+*.sqlite3
