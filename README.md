@@ -18,7 +18,7 @@ MYH:s beslut om YH-ansökningar.
 
 ## Uppgift 3 – Datadrivna beslut
 
-SQL: `02_beslut/3_datadrivna_beslut.sql`
+SQL: `02_datadrivna_beslut/3_datadrivna_beslut.sql`
 
 ### Beviljandegrad per utbildningsområde
 
