@@ -82,7 +82,7 @@ ORDER BY COUNT(*) DESC, an.name, a.utbildningsnamn;
 -- 1g) Topp 5 län efter antal beviljade
 SELECT
     l.lan_name AS "län",
-    COUNT(*) AS "antal_beviljade"
+    COUNT(DISTINCT a.diarienummer) AS "antal_beviljade"
 FROM ansokan a
 JOIN ansokan_kommun ak ON ak.diarienummer = a.diarienummer
 JOIN kommun k ON k.kommun_id = ak.kommun_id
