@@ -90,7 +90,7 @@ JOIN lan l ON l.lan_id = k.lan_id
 WHERE a.beslut = 'Beviljad'
   AND LOWER(l.lan_name) NOT LIKE '%flera%'
 GROUP BY l.lan_name
-ORDER BY COUNT(*) DESC
+ORDER BY COUNT(DISTINCT a.diarienummer) DESC, l.lan_name
 FETCH FIRST 5 ROWS ONLY;
 
 
