@@ -66,7 +66,9 @@ SELECT
 FROM ansokningar
 WHERE beslut = 'Beviljad'
 GROUP BY lan
-ORDER BY summa_beviljade_platser DESC
+ORDER BY
+    CASE WHEN LOWER(lan) LIKE '%flera%' THEN 1 ELSE 0 END,
+    summa_beviljade_platser DESC
 FETCH FIRST 10 ROWS ONLY;
 
 EXIT
