@@ -8,7 +8,7 @@ Fem frågor utöver uppgift 1, valda för att stödja **The Skool** (fokus Data/
 
 ### Fråga 2 – Distans vs bunden inom Data/IT
 
-**Motivering:** Studieform är ett aktivt val i ansökan. Om bunden utbildning har högre beviljandegrad än distans (eller tvärtom) bör The Skool ta hänsyn till det när nästa program utformas – både pedagogiskt och strategiskt mot MYH.
+**Motivering:** Studieform är ett aktivt val i ansökan. Om bunden utbildning har högre beviljandegrad än distans (eller tvärtom) bör The Skool ta hänsyn till det när nästa program utformas.
 
 ### Fråga 3 – Topp-anordnare inom Data/IT (antal beviljade + hitrate)
 
