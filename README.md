@@ -7,8 +7,8 @@ MYH:s beslut om YH-ansökningar (ansökningsomgång 2025).
 
 ```bash
 # 1. Ladda data
-./orac 00_load/0_create_table.sql
-./orac 00_load/1_load_csv.sql
+orac 00_load/0_create_table.sql
+orac 00_load/1_load_csv.sql
 # Förväntat: ANTAL_RADER = 1184
 
 # 2. EDA (uppgift 1)
