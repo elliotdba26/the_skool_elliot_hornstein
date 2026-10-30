@@ -41,7 +41,7 @@ Flest ansökningar: Ekonomi (239), Teknik (221), Data/IT (220).
 
 ![1a – ansökningar per område](screenshots/1a_antal_per_omrade.png)
 
-Topp 5 län efter beviljade (exkl. "Flera kommuner"): Stockholm och Västra Götaland leder.
+Topp 5 län efter beviljade.
 
 ![1g – topp 5 län](screenshots/1g_topp5_lan.png)
 
@@ -49,8 +49,7 @@ Topp 5 län efter beviljade (exkl. "Flera kommuner"): Stockholm och Västra Göt
 
 SQL: `02_datadrivna_beslut/3_datadrivna_beslut.sql`
 
-**Distans vs bunden (Data/IT)** – Bunden har mer än dubbelt så hög
-beviljandegrad (16,3 %) som distans (7,4 %). Studieform påverkar utfallet.
+**Distans vs bunden (Data/IT)** 
 
 ![Distans vs bunden](screenshots/3_2_distans_bunden.png)
 
