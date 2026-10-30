@@ -66,7 +66,7 @@ volym. Underlag för var The Skool bör prioritera.
 ## Uppgift 4 – Datamodell
 
 Bryter upp `ansokningar` i åtta tabeller enligt ER-diagrammet.
-Samma frågor som uppgift 1 körs sedan med JOIN mot de nya tabellerna.
+Samma frågor som uppgift 1 körs sedan med `JOIN` mot de nya tabellerna.
 
 ![ER-diagram](screenshots/4_er_diagram.png)
 
