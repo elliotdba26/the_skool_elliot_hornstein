@@ -1,4 +1,8 @@
-AI användes för att fixa och skapa .csv filen,
-frågorna till uppgfit 3,
-Skapa table och load table på uppgift 1 och 4,
-Fixa README.md.
+LLM Användning
+
+AI användes som bollplank och för att snabba upp vissa delar:
+
+- Hjälp med att skapa CSV-filen från `.xlsx`
+- Förslag på frågor till uppgift 3
+- Hjälp med CREATE `TABLE` och `LOAD_DATA` i uppgift 4
+- Språklig finputs av README.md

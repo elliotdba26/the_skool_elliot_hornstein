@@ -41,7 +41,7 @@ INSERT INTO lan (lan_name) VALUES ('Östergötland');
 INSERT INTO seqf (seqf_kod, examenstyp) VALUES (5, 'Yrkeshögskoleexamen');
 INSERT INTO seqf (seqf_kod, examenstyp) VALUES (6, 'KvalificeradYrkeshögskoleexamen');
 
--- Kommuner (från staging, kopplade till län)
+-- Kommuner
 INSERT INTO kommun (kommun_name, lan_id)
 SELECT DISTINCT a.kommun, l.lan_id
 FROM ansokningar a
@@ -68,7 +68,7 @@ FROM (
 ) s
 JOIN utbildningsomrade u ON u.utbildningsomrade_name = s.utbildningsomrade;
 
--- Ansökan (faktatabell)
+-- Ansökan
 INSERT INTO ansokan (
     diarienummer, sun5_kod, seqf_kod, anordnare_id,
     utbildningsnamn, beslut, yh_poang, studieform, studietakt_procent,
@@ -93,7 +93,7 @@ SELECT
 FROM ansokningar a
 LEFT JOIN utbildningsanordnare an ON an.name = a.anordnare;
 
--- Ansökan ↔ kommun
+-- Ansökan kommun
 INSERT INTO ansokan_kommun (diarienummer, kommun_id)
 SELECT a.diarienummer, k.kommun_id
 FROM ansokningar a
